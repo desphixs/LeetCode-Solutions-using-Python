@@ -8,3 +8,6 @@ Warm regards,
 
 Destiny
 @desphixs
+
+
+<b>Update 1: Send your questions to desphixs@gmail.com</b>
