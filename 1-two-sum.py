@@ -35,3 +35,21 @@ print("Indices of the two numbers that sum up to the target:", result)
 
 # Tutorial URL
 # Coming Soon
+
+
+
+'''
+Question 1: Is it necessary and compulsory to add these parameters in the function?
+
+Answer: In Python, it's not necessary to explicitly include self as the first parameter in methods if they don't access instance attributes or methods. However, if you're defining a method within a class and plan to call it on instances of that class, it's a common convention to include self as the first parameter to represent the instance itself.
+
+Regarding the type hints (nums: List[int], target: int) and return type hint (-> List[int]), they are optional but can be helpful for documenting and enforcing types in your code. They improve readability and can catch type-related errors early during development. If you're using type hints, it's a good practice to be consistent throughout your codebase.
+
+Here's a breakdown of the parameters and return type hint in the context of your method signature:
+
+nums: List[int]: This indicates that the nums parameter is expected to be a list of integers. The List[int] part is a type hint provided by the typing module, specifying that nums should be a list where each element is an integer.
+
+target: int: This indicates that the target parameter is expected to be an integer. The int part is a type hint specifying the type of the target parameter.
+
+-> List[int]: This indicates that the method is expected to return a list of integers. The -> List[int] part is a return type hint specifying the type of the return value.
+'''
