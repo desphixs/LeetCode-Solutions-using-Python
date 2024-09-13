@@ -21,7 +21,11 @@ def twoSum(nums, target):
 
     # Iterate over the list `nums` with index and value
     for index, value in enumerate(nums):
-        # Calculate the difference needed to reach the target sum
+        """
+        Calculate the difference needed to reach the target sum
+        For each number in nums, the code calculates the diff (difference) between the target and the current value. 
+        This is essentially asking: "What number would I need to add to this value to get the target?"
+        """
         diff = target - value
 
         # Check if the difference is already in the dictionary
